@@ -1,0 +1,13 @@
+{
+  "aozora" : {
+    "mappings" : {
+      "_type" : {
+        "properties" : {
+          "author" : { "type" : "text" },
+          "title" : { "type" : "text" },
+          "body" : { "type" : "text" }
+        }
+      }
+    }
+  }
+}
