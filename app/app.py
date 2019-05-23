@@ -18,8 +18,8 @@ def redis_hits():
     return 'Hello World! I have been seen %s times.' % redis.get('hits')
 
 
-@app.route('/aozora', methods=['GET'])
-def search_music():
+@app.route('/aozora_books', methods=['GET'])
+def search():
     return AozoraController.search()
 
 

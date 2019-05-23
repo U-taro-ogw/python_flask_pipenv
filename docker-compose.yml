@@ -1,6 +1,6 @@
 version: '2'
 services:
-  web:
+  flask_app:
     build: ./app
     ports:
      - "5000:5000"
