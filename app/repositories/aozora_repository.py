@@ -1,5 +1,5 @@
-
+import json
 
 class AozoraRepository():
     def search():
-        return 'this is hoge'
+        return json.dumps({"key": 'value'})
