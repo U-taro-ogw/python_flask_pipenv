@@ -1,9 +1,10 @@
 import json
 
 from mamba import description, context, it
-from expects import expect, be_true, equal
+from expects import expect, equal
 
 from service.aozora_service import AozoraService
+
 
 with description('aozora_controller') as self:
     with context('xxxに成功する場合'):
