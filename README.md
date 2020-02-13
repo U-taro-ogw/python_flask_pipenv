@@ -19,9 +19,22 @@
     `$ curl -X GET http://localhost:5000/redis_hits`  
     => Hello World! I have been seen b'1' times.
 
-    `curl -X GET http://localhost:5000/aozora_books`  
+    `$ curl -X GET http://localhost:5000/aozora_books`  
     => {"key": "value"}
 
-### その他
-テストランナー => mamba
+### テスト
+mambaを使用しています。  
 
+テストファイルは  
+`/app/spec/`  
+配下に配置
+
+テストの実行コマンド  
+`$ docker-compose exec flask_app pipenv run mamba`
+
+
+### lint
+flake8を使用しています。
+
+flake8の実行コマンド  
+`$ docker-compose exec flask_app pipenv run flake8`
