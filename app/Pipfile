@@ -13,6 +13,7 @@ hiredis = "*"
 [dev-packages]
 flake8 = '*'
 mamba = '*'
+expects = '*'
 
 [requires]
 python_version = '3.7'

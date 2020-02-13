@@ -21,3 +21,7 @@
 
     `curl -X GET http://localhost:5000/aozora_books`  
     => {"key": "value"}
+
+### その他
+テストランナー => mamba
+
